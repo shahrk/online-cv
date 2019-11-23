@@ -1,0 +1,149 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Raj Shah
+    tagline: Software Development Engineer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: rajshahworks@gmail.com
+    phone: +91 9924750043
+    website: rajshah.tech #do not add http://
+    linkedin: shahrk97
+    github: shahrk
+    gitlab:
+    bitbucket:
+    twitter: '@rajshah_06'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Hindi
+        level: Native
+
+      - idiom: Gujarati
+        level: Native
+
+    interests:
+      - item: Snooker
+        link:
+
+      - item: Swimming
+        link:
+
+      - item: Tennis
+        link:
+
+career-profile:
+    title: Summary
+    summary: |
+      Currently Software Development Engineer at General Electric. Experienced in backend development and AWS cloud technologies. 
+      When not working, I am mostly reading books or playing snooker. I love to read about scalable distributed systems, 
+      system design, and software engineering and am up for a discussion on politics, economics, or system design anytime.
+education:
+    - degree: BTech in Information and Communication Technology
+      university: DAIICT (CGPA: 8.19)
+      time: 2014 - 2018
+      details: |
+        Gained in-depth knowledge in the core fields of Computer Science. Recieved a holistic education with courses such as 
+        Elements of Bussiness Finance, Economics, System Policies & Implications, Approaches to Indian Society, Synthetic Biology.
+          - Bullet point
+          - Bullet point
+experiences:
+    - role: Software Engineer
+      time: July, 2018 - Present
+      company: General Electric, Bengaluru
+      details: |
+        Working as a full stack developer on our company's cost modelling application that models the cost of service agreements between
+        GE and wind farm owners. Worked on several other projects during the span of the last 1.5 years. As the Technical Anchor 
+        for the team, responsible for maintaing coding standards and software engineering practices. Have been leading the migration 
+        of some of GE's projects from Predix to AWS.
+          - Spearheaded documentation initiatives to establish comprehensive technical documentation for our project which included 
+          High & Low Level Design, Sequence Diagrams, API documentation and coding/testing standards
+          - Led efforts for refactoring and performance optimization. Improved the average percentile performance by 27%
+          - Developed Raven, a service for sending targeted email, text message and push notifications based on user location. 
+          Technologies used: Spring Boot, SQS, Lambda & other AWS technologies
+          - Developed the backend services for Textractor, a service for automating invoice processing workflow by identifying data and 
+          form labels from the invoice’s image. Technologies used: Spring Boot, AWS Textract & Lambda.
+    - role: Software Engineering Intern
+      time: Jan, 2018 - June, 2018
+      company: General Electric, Bengaluru
+      details: |
+        Worked as a full stack developer on a portal where service engineers across GE can track the service updates of models 
+        such as steam turbines or engines. Developed the first version of a Product Catalog for displaying all the projects across GE.
+          - Developed a caching system using SQS and Redis to reduce database load and improve performance. Improved the p99 performance
+          of a significant API by 22%.
+          - Developed a notification system for showing real-time notifications on service updates. 
+		  Technologies used: Spring Boot, Javascript
+          - Handled the end to end development of a product catalog. 
+		  Technologies used: Angular 6, NodeJS, Express
+    - role: Research Intern
+      time: April, 2017 - May, 2017 
+      company: Dhirubhai Ambani Institute of Information and Communication Technology, Gandhinagar
+      details: |
+        Researched on predicting the popularity of content on Social Media. Specifically developed my own model for predicting the 
+        number of likes & retweets a tweet gets on Twitter.
+          - Created Python script for collecting, cleaning and processing more than 10 Million tweets
+          - Determined factors with positive correlation such as influence factor, trending factor, sentiment (using naive bayes), 
+          time of tweet
+          - Built a multiple linear regression model using these factors that achieved an R2 score of 0.55
+    - role: Teaching Assistant
+      time: June, 2017 - Dec, 2017
+      company: Dhirubhai Ambani Institute of Information and Communication Technology, Gandhinagar
+      details: |
+        Helped freshman students with their studies in Data Structure and Algorithms
+        - Worked with students who lagged in studies towards improving their grades by helping them with assignments, 
+        revisiting abstruse topics and solving doubts
+    - role: Linux Administration Intern
+      time: April, 2016 - May, 2016
+      company: Robocop Technologies LLP, Gandhinagar
+      details: |
+        - Wrote scripts for distribution based software packaging and installation for Linux based distributions
+        
+projects:
+    title: Projects
+    assignments:
+      - title: Non Volatile Virtual File System
+        tagline: "A Java-based distributed file system that has master-slave replication. Developed using the Java RMI interface"
+
+      - title: Online Store Database Service
+        tagline: "Highly performant database service developed using pgsql and Java. Performance optimized using partitioning, indexing 
+        and query optimizations"
+
+      - title: Recommendation System
+        tagline: "A movie recommendation systems made using collaborative filtering on public data sets"
+
+      - title: Smart Tic-Tac-Toe
+        tagline: "A Tic-Tac-Toe game engine that never loses. Developed using minimax and optimized using alpha-beta pruning"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Java & Spring Boot
+        level: 98%
+
+      - name: Javascript & Angular
+        level: 98%
+
+      - name: AWS services, Docker, Kubernetes
+        level: 98%
+
+      - name: RabbitMQ, Redis
+        level: 85%
+
+      - name: Python, NodeJS
+        level: 85%
+
+      - name: BeautifulSoup, Scikit-learn, Pandas
+        level: 60%
