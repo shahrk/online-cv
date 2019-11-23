@@ -3,117 +3,124 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Raj Shah
+    tagline: Software Development Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: rajshahworks@gmail.com
+    phone: +91 9924750043
+    website: rajshah.tech #do not add http://
+    linkedin: shahrk97
+    github: shahrk
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@rajshah_06'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
+        level: Professional
+
+      - idiom: Hindi
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: Gujarati
+        level: Native
 
     interests:
-      - item: Climbing
+      - item: Snooker
         link:
 
-      - item: Snowboarding
+      - item: Swimming
         link:
 
-      - item: Cooking
+      - item: Tennis
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Currently Software Development Engineer at General Electric. 
+      Experienced in backend development and AWS cloud technologies. 
+      When not working, I am mostly reading books or playing snooker. 
+      I love to read about scalable distributed systems, 
+      system design, and software engineering and am up for a discussion on politics, 
+      economics, or system design anytime.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: BTech in Information and Communication Technology
+      university: DAIICT
+      time: 2014 - 2018
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Gained in-depth knowledge in the core fields of Computer Science. 
+        Received a holistic education with courses such as 
+        Elements of Bussiness Finance, Economics, System Policies & Implications, 
+        Approaches to Indian Society, Synthetic Biology.
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Software Engineer
+      time: July, 2018 - Present
+      company: General Electric, Bengaluru
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Working as a full stack developer on our company's cost 
+        modelling application that models the cost of service agreements 
+        between GE and wind farm owners. Worked on several other projects 
+        during the span of the last 1.5 years. As a Technical Anchor 
+        for the team, responsible for maintaing coding standards and software engineering practices. 
+        Recently, led the migration of some of GE's projects from Predix to AWS.
+          - Spearheaded documentation initiatives to establish comprehensive technical 
+          documentation for our project which included High & Low Level Design, Sequence Diagrams, 
+          API documentation and coding/testing standards
+          - Led efforts for refactoring and performance optimization. Improved the average percentile 
+          performance by 27%
+          - Dockerized the backend and frontend services and automated deployment 
+          with Kubernetes and Jenkins
+          - Developed Raven, a service for sending targeted email, text message and push notifications 
+          based on user location. Technologies used: Spring Boot, SQS, Lambda & other AWS technologies
+          - Developed the backend services for Textractor, a service for automating invoice processing 
+          workflow by identifying data and form labels from the invoice’s image. 
+          Technologies used: Spring Boot, AWS Textract & Lambda.
+    - role: Software Engineering Intern
+      time: Jan, 2018 - June, 2018
+      company: General Electric, Bengaluru
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        Worked as a full stack developer on a portal where service engineers across GE can track the 
+        service updates of models such as steam turbines or engines. Developed the first version of a 
+        Product Catalog for displaying all the projects across GE.
+          - Developed a caching system using SQS and Redis to reduce database load and improve performance. 
+          Improved the p99 performance of a significant API by 22%.
+          - Developed a notification system for showing real-time notifications on service updates. 
+          Technologies used: Spring Boot, Javascript
+          - Handled the end to end development of a product catalog. 
+          Technologies used: Angular 6, NodeJS, Express
+    - role: Research Intern
+      time: April, 2017 - May, 2017 
+      company: Dhirubhai Ambani Institute of Information and Communication Technology, Gandhinagar
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Researched on predicting the popularity of content on Social Media. 
+        Specifically developed my own model for predicting the 
+        number of likes & retweets a tweet gets on Twitter.
+          - Created Python script for collecting, cleaning and processing more than 10 Million tweets
+          - Determined factors with positive correlation such as influence factor, trending factor, 
+          sentiment (using naive bayes), time of tweet
+          - Built a multiple linear regression model using these factors that achieved an R2 score of 0.55
+    - role: Teaching Assistant
+      time: June, 2017 - Dec, 2017
+      company: Dhirubhai Ambani Institute of Information and Communication Technology, Gandhinagar
+      details: |
+        Aided freshman students with their coursework for the course of Data Structure and Algorithms
+        - Worked with students who lagged in studies towards improving their grades by helping them with 
+        assignments, revisiting abstruse topics and solving doubts
+    - role: Linux Administration Intern
+      time: April, 2016 - May, 2016
+      company: Robocop Technologies LLP, Gandhinagar
+      details: |
+        - Wrote scripts for distribution based software packaging and installation for Linux based distributions
 projects:
     title: Projects
     intro: >
@@ -121,25 +128,17 @@ projects:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Non Volatile Virtual File System
+        tagline: "A Java-based distributed file system that has master-slave replication. Developed using the Java RMI interface"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Online Store Database Service
+        tagline: "Highly performant database service developed using pgsql and Java. Performance optimized using partitioning, indexing and query optimizations"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Recommendation System
+        tagline: "A movie recommendation systems made using collaborative filtering on public data sets"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Smart Tic-Tac-Toe
+        tagline: "A Tic-Tac-Toe game engine that never loses. Developed using minimax and optimized using alpha-beta pruning"
 
 publications:
     title: Publications
@@ -167,23 +166,23 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Java & Spring Boot
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Javascript & Angular
         level: 98%
 
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name: AWS services, Docker, Kubernetes
         level: 85%
 
-      - name: Sketch & Photoshop
+      - name: RabbitMQ, Redis
+        level: 85%
+
+      - name: Python, NodeJS
+        level: 75%
+
+      - name: Scikit-learn, Pandas, BeautifulSoup
         level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by Raj Shah
