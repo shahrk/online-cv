@@ -123,10 +123,6 @@ experiences:
         - Wrote scripts for distribution based software packaging and installation for Linux based distributions
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: Non Volatile Virtual File System
         tagline: "A Java-based distributed file system that has master-slave replication. Developed using the Java RMI interface"
