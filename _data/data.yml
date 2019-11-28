@@ -51,8 +51,8 @@ career-profile:
       Experienced in backend development and AWS cloud technologies. 
       When not working, I am mostly reading books or playing snooker. 
       I love to read about scalable distributed systems, 
-      system design, and software engineering and am up for a discussion on politics, 
-      economics, or system design anytime.
+      system design, and artificial intelligence and am up for a discussion on agriculture, 
+      economics, or tech anytime.
 education:
     - degree: BTech in Information and Communication Technology
       university: DAIICT
@@ -155,7 +155,7 @@ skills:
         level: 75%
 
       - name: Scikit-learn, Pandas, BeautifulSoup
-        level: 60%
+        level: 70%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by Raj Shah
