@@ -124,6 +124,9 @@ experiences:
 projects:
     title: Projects
     assignments:
+      - title: Research Project Portal
+        tagline: "A web portal developd to streamline the interaction between professors and students regarding research opportunities"
+    
       - title: Non Volatile Virtual File System
         tagline: "A Java-based distributed file system that has master-slave replication. Developed using the Java RMI interface"
 
