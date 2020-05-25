@@ -50,8 +50,7 @@ career-profile:
       Currently Software Development Engineer at General Electric. 
       Experienced in backend development and AWS cloud technologies. 
       When not working, I am mostly reading books or playing snooker. 
-      I love to read about scalable distributed systems, 
-      system design, and artificial intelligence and am up for a discussion on agriculture, 
+      I love to read about system design and and am up for a discussion on finance, 
       economics, or tech anytime.
 education:
     - degree: BTech in Information and Communication Technology
@@ -70,21 +69,21 @@ experiences:
         Working as a full stack developer on our company's cost 
         modelling application that models the cost of service agreements 
         between GE and wind farm owners. Worked on several other projects 
-        during the span of the last 1.5 years. As a Technical Anchor 
+        during the span of the last 2 years. As a Technical Anchor 
         for the team, responsible for maintaing coding standards and software engineering practices. 
-        Recently, led the migration of some of GE's projects from Predix to AWS.
+        Recently, led the migration of some of GE's projects from Cloud Foundry to AWS.
           - Spearheaded documentation initiatives to establish comprehensive technical 
-          documentation for our project which included High & Low Level Design, Sequence Diagrams, 
+          documentation for our project which included High Level Design, Sequence Diagrams, 
           API documentation and coding/testing standards
-          - Led efforts for refactoring and performance optimization. Improved the average percentile 
-          performance by 27%
-          - Dockerized the backend and frontend services and automated deployment 
-          with Kubernetes and Jenkins
+          - Led efforts for refactoring and performance optimization
+          - Dockerized the development setup and automated deployment with Jenkins
           - Developed Raven, a service for sending targeted email, text message and push notifications 
-          based on user location. Technologies used: Spring Boot, SQS, Lambda & other AWS technologies
-          - Developed the backend services for Textractor, a service for automating invoice processing 
-          workflow by identifying data and form labels from the invoice’s image. 
-          Technologies used: Spring Boot, AWS Textract & Lambda.
+          based on user location. Technologies used: Spring Boot, RabbitMQ and UrbanAirShip APIs
+          - Implemented the OAuth2 authentication and authorization security layer for the 
+          cost modelling application
+          - Created generic CRUD API to enable dynamic crud operations without any boiler plate 
+          (used for prototyping)
+          - Developed a metrics monitoring platform using Spring Boot Actuator, Prometheus and Grafana
     - role: Software Engineering Intern
       time: Jan, 2018 - June, 2018
       company: General Electric, Bengaluru
@@ -92,10 +91,8 @@ experiences:
         Worked as a full stack developer on a portal where service engineers across GE can track the 
         service updates of models such as steam turbines or engines. Developed the first version of a 
         Product Catalog for displaying all the projects across GE.
-          - Developed a caching system using SQS and Redis to reduce database load and improve performance. 
-          Improved the p99 performance of a significant API by 22%.
-          - Developed a notification system for showing real-time notifications on service updates. 
-          Technologies used: Spring Boot, Javascript
+          - Developed a notification system for showing push notifications on service updates. 
+          Technologies used: Spring Boot, NodeJS, Express, Javascript
           - Handled the end to end development of a product catalog. 
           Technologies used: Angular 6, NodeJS, Express
     - role: Research Intern
@@ -103,12 +100,8 @@ experiences:
       company: Dhirubhai Ambani Institute of Information and Communication Technology, Gandhinagar
       details: |
         Researched on predicting the popularity of content on Social Media. 
-        Specifically developed my own model for predicting the 
-        number of likes & retweets a tweet gets on Twitter.
           - Created Python script for collecting, cleaning and processing more than 10 Million tweets
-          - Determined factors with positive correlation such as influence factor, trending factor, 
-          sentiment (using naive bayes), time of tweet
-          - Built a multiple linear regression model using these factors that achieved an R2 score of 0.55
+          - Performed sentiment analysis on the obtained data and classified it based on 3 sentiments
     - role: Teaching Assistant
       time: June, 2017 - Dec, 2017
       company: Dhirubhai Ambani Institute of Information and Communication Technology, Gandhinagar
@@ -124,17 +117,17 @@ experiences:
 projects:
     title: Projects
     assignments:
-      - title: Research Project Portal
-        tagline: "A web portal developd to streamline the interaction between professors and students regarding research opportunities"
+      - title: Casper Web Game
+        tagline: "Web game with social media (OAuth2) and leaderboards developed using JavaScript, SpringBoot & Redis"
+        
+      - title: API Rate Limiter
+        tagline: "An API rate limiter developed in NodeJS using Express and Redis"
     
       - title: Non Volatile Virtual File System
-        tagline: "A Java-based distributed file system that has master-slave replication. Developed using the Java RMI interface"
+        tagline: "A Java FAT file system made using File Allocation Table and File Entry Table"
 
       - title: Online Store Database Service
-        tagline: "Highly performant database service developed using pgsql and Java. Performance optimized using partitioning, indexing and query optimizations"
-
-      - title: Recommendation System
-        tagline: "A movie recommendation systems made using collaborative filtering on public data sets"
+        tagline: "Database service developed using pgsql and Java. Performance optimized using indexing and query optimizations"
 
       - title: Smart Tic-Tac-Toe
         tagline: "A Tic-Tac-Toe game engine that never loses. Developed using minimax and optimized using alpha-beta pruning"
@@ -143,21 +136,18 @@ skills:
 
     toolset:
       - name: Java & Spring Boot
-        level: 98%
-
+        level: 95%
+    
+      - name: AWS services, RabbitMQ
+        level: 85%
+    
+      - name: NodeJS, Docker, Redis
+        level: 80%
+    
       - name: JavaScript & Angular
-        level: 98%
-
-      - name: AWS services, Docker, Kubernetes
-        level: 85%
-
-      - name: RabbitMQ, Redis
-        level: 85%
-
-      - name: Python, NodeJS
         level: 75%
 
-      - name: Scikit-learn, Pandas, BeautifulSoup
+      - name: Python, Scikit-learn, Pandas, BeautifulSoup
         level: 70%
 
 footer: >
