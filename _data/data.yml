@@ -117,8 +117,8 @@ experiences:
 projects:
     title: Projects
     assignments:
-      - title: Casper Web Game
-        tagline: "Web game with social media (OAuth2) and leaderboards developed using JavaScript, SpringBoot & Redis"
+      - title: [Casper](https://www.rajshah.tech/casper "Check it out live")
+        tagline: "Web game with social media login (OAuth2) and leaderboards developed using JavaScript, SpringBoot & Redis"
         
       - title: API Rate Limiter
         tagline: "An API rate limiter developed in NodeJS using Express and Redis"
