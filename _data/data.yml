@@ -142,13 +142,13 @@ skills:
         level: 85%
     
       - name: NodeJS, Docker, Redis
-        level: 80%
+        level: 82%
     
       - name: JavaScript & Angular
         level: 75%
 
       - name: Python, Scikit-learn, Pandas, BeautifulSoup
-        level: 70%
+        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by Raj Shah
