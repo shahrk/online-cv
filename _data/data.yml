@@ -117,7 +117,7 @@ experiences:
 projects:
     title: Projects
     assignments:
-      - title: [Casper](https://www.rajshah.tech/casper "Check it out live")
+      - title: <a href="{{ https://www.rajshah.tech/casper }}"> Casper </a>
         tagline: "Web game with social media login (OAuth2) and leaderboards developed using JavaScript, SpringBoot & Redis"
         
       - title: API Rate Limiter
