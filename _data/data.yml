@@ -117,11 +117,14 @@ experiences:
 projects:
     title: Projects
     assignments:
-      - title: <a href="https://www.rajshah.tech/casper"> Casper Game </a>
-        tagline: "Web based game with social media login (OAuth2) and leaderboards developed using JavaScript, SpringBoot & Redis"
-        
       - title: API Rate Limiter
         tagline: "An API rate limiter developed in NodeJS using Express and Redis"
+
+      - title: Realtime Chat Room Application
+        tageline: "Developed a real time chat room application using Spring Boot, Web Sockets and RabbitMQ"
+        
+      - title: <a href="https://www.rajshah.tech/casper"> Casper Game </a>
+        tagline: "Web based game with social media login (OAuth2) and leaderboards developed using JavaScript, SpringBoot & Redis"
     
       - title: Non Volatile Virtual File System
         tagline: "A Java FAT file system made using File Allocation Table and File Entry Table"
