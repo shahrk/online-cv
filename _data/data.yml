@@ -121,7 +121,7 @@ projects:
         tagline: "An API rate limiter developed in NodeJS using Express and Redis"
 
       - title: Realtime Chat Room Application
-        tageline: "Developed a real time chat room application using Spring Boot, Web Sockets and RabbitMQ"
+        tagline: "Developed a real time chat room application using Spring Boot, Web Sockets and RabbitMQ"
         
       - title: <a href="https://www.rajshah.tech/casper"> Casper Game </a>
         tagline: "Web based game with social media login (OAuth2) and leaderboards developed using JavaScript, SpringBoot & Redis"
