@@ -120,10 +120,10 @@ projects:
       - title: API Rate Limiter
         tagline: "An API rate limiter developed in NodeJS using Express and Redis"
 
-      - title: Realtime Chat Room Application
+      - title: <a href="https://raj-chatroom.herokuapp.com/"> Realtime Chat Room Application (click me) </a>
         tagline: "Developed a real time chat room application using Spring Boot, Web Sockets and RabbitMQ"
         
-      - title: <a href="https://www.rajshah.tech/casper"> Casper Game </a>
+      - title: <a href="https://www.rajshah.tech/casper"> Casper Game (click me) </a>
         tagline: "Web based game with social media login (OAuth2) and leaderboards developed using JavaScript, SpringBoot & Redis"
     
       - title: Non Volatile Virtual File System
